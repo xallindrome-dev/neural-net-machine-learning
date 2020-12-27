@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D49074E5-641F-4CA9-93DF-1DC46FB019C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{97173DE8-CEA7-4B25-BA40-A78E2E9AD252}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MachineLearningROX", "src\MachineLearningROX\MachineLearningROX.xproj", "{2774E66A-60F4-4AC0-B1E5-E5D163F830FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineLearningTests", "MachineLearningTests\MachineLearningTests.csproj", "{05EF7872-D330-468E-A0C5-5F8608085FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetwork", "NeuralNet\NeuralNetwork.csproj", "{A1CB370E-764F-4737-96A7-048010BA9CA2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MachineLearningAPI", "src\MachineLearningAPI\MachineLearningAPI.xproj", "{D6D7357C-DA94-44D8-8321-90865C05447E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2774E66A-60F4-4AC0-B1E5-E5D163F830FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2774E66A-60F4-4AC0-B1E5-E5D163F830FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2774E66A-60F4-4AC0-B1E5-E5D163F830FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2774E66A-60F4-4AC0-B1E5-E5D163F830FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05EF7872-D330-468E-A0C5-5F8608085FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EF7872-D330-468E-A0C5-5F8608085FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EF7872-D330-468E-A0C5-5F8608085FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EF7872-D330-468E-A0C5-5F8608085FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1CB370E-764F-4737-96A7-048010BA9CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CB370E-764F-4737-96A7-048010BA9CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CB370E-764F-4737-96A7-048010BA9CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CB370E-764F-4737-96A7-048010BA9CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D7357C-DA94-44D8-8321-90865C05447E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D7357C-DA94-44D8-8321-90865C05447E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D7357C-DA94-44D8-8321-90865C05447E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D7357C-DA94-44D8-8321-90865C05447E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2774E66A-60F4-4AC0-B1E5-E5D163F830FE} = {D49074E5-641F-4CA9-93DF-1DC46FB019C8}
+		{05EF7872-D330-468E-A0C5-5F8608085FDF} = {D49074E5-641F-4CA9-93DF-1DC46FB019C8}
+		{A1CB370E-764F-4737-96A7-048010BA9CA2} = {D49074E5-641F-4CA9-93DF-1DC46FB019C8}
+		{D6D7357C-DA94-44D8-8321-90865C05447E} = {D49074E5-641F-4CA9-93DF-1DC46FB019C8}
+	EndGlobalSection
+EndGlobal

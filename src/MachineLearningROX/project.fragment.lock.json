@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "exports": {
+    "NeuralNetwork/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/NeuralNet.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/NeuralNet.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/NeuralNet.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
